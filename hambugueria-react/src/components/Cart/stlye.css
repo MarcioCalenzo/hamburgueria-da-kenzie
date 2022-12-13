@@ -1,0 +1,150 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 535px;
+  width: 100%;
+  max-width: 380px;
+  margin-top: 20px;
+}
+
+.cart--title {
+  height: 65px;
+  width: 100%;
+  background-color: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+  color: #ffffff;
+}
+
+.cart--container {
+  background-color: #f5f5f5;
+  height: 323px;
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  height: 2px;
+  width: 340px;
+}
+
+.cart--product {
+  height: 106px;
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.cart--product--descr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+}
+
+.cart--product--img {
+  height: 70px;
+  width: 70px;
+  margin-left: 23.45px;
+  margin-top: 25px;
+  margin-right: 15px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+.cart--product--cont {
+  display: flex;
+}
+
+.cart--product--cont > button {
+  margin-left: 50px;
+  height: 40px;
+  width: 40px;
+  background-color: none;
+  border: none;
+}
+
+.cart--value {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 145px;
+  width: 100%;
+}
+
+.cart--value--total {
+  height: 143px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cart--value--name {
+  color: #333333;
+  font-weight: 600;
+  margin-left: 18.45px;
+  height: 24px;
+}
+
+.cart--value--value {
+  margin-right: 18.45px;
+  color: #828282;
+  font-weight: 600;
+}
+.cart--value--btn {
+  margin-bottom: 20px;
+  width: 96%;
+  height: 66%;
+  display: flex;
+  justify-content: center;
+}
+.cart--value--btn > button {
+  width: 100%;
+  height: 90%;
+  border: 2px solid #e0e0e0;
+  background-color: #e0e0e0;
+}
+
+.cart--empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 13rem;
+  width: 100%;
+  max-width: 380px;
+  margin-top: 20px;
+}
+
+.empty--container {
+  background-color: #f5f5f5;
+  width: 100%;
+  max-width: 380px;
+  height: 158px;
+}
+
+.empty--container--h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #333333;
+}
+
+.empty--container--span {
+  color: #828282;
+}
+
+@media (min-width: 968px) {
+  .cart {
+    margin-right: 115px;
+  }
+
+  .cart--empty {
+    margin-right: 115px;
+  }
+}
